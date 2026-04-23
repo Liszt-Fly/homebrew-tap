@@ -1,26 +1,26 @@
 class Stoa < Formula
   desc "Terminal UI for browsing files and reviewing diffs"
   homepage "https://github.com/Liszt-Fly/stoa-releases"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.9/stoa_Darwin_arm64.tar.gz"
-      sha256 "86de8d8530ba9ea246ee6bac0577c18f3b512126b61d2668db89415d71ec38fe"
+      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.10/stoa_Darwin_arm64.tar.gz"
+      sha256 "295de43902a90f6994683992823abc97ebc61c786670959a3bba48fdd9ed90b2"
     else
-      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.9/stoa_Darwin_x86_64.tar.gz"
-      sha256 "bda4853de5995aef5b13e8d23ad57bdc0be0d148b67b11673011be2df99e19c0"
+      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.10/stoa_Darwin_x86_64.tar.gz"
+      sha256 "5c81f7ac2255655618df7c6aa98c335528ae581c5830574bcb331bbaa8d7f1ed"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.9/stoa_Linux_arm64.tar.gz"
-      sha256 "0294710253d943007067b4ce2b9284e1edd494cbb9940f28877460e4d77068cd"
+      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.10/stoa_Linux_arm64.tar.gz"
+      sha256 "4b13940544fea8e9908813ad38855020c3c51f1c617be4ef195ff995e6acad1c"
     else
-      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.9/stoa_Linux_x86_64.tar.gz"
-      sha256 "7d89b48dcb7a5aea9a925db9a4fabf4cc19726daa13730bf4c2923c9e784d08a"
+      url "https://github.com/Liszt-Fly/stoa-releases/releases/download/v0.1.10/stoa_Linux_x86_64.tar.gz"
+      sha256 "e2c396a48d94446be8ae9e93d6f06ea53d77bb12fa59c78b3731accb986fc7ea"
     end
   end
 
